@@ -1,0 +1,417 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#number a,
+#Name a,
+#location a,
+#login a,
+#icons a {
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .container-fluid .link {
+    display: none !important;
+  }
+}
+
+#menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#logo span {
+  color: #0a0ab9;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#end {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#end .btn {
+  background-color: #0a0ab9;
+  color: white;
+  font-size: 11px;
+  padding: 0.5rem 1.25rem;
+}
+
+@media (max-width: 991px) {
+  img {
+    width: 100%;
+  }
+  .bi-cart3 {
+    display: none;
+  }
+  .frst .row > * {
+    width: 50% !important;
+  }
+}
+#wrrapper span {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+#wrrapper p {
+  font-weight: 600;
+}
+@media (max-width: 500px) {
+  #wrrapper span {
+    font-size: 1.5rem;
+  }
+  #wrrapper .View-courses .btn {
+    padding: 0.3rem 1rem !important;
+  }
+  #wrrapper .View-courses a {
+    padding: 0 1rem !important;
+  }
+}
+#wrrapper .View-courses {
+  padding: 1rem 0;
+}
+#wrrapper .View-courses .btn {
+  background-color: #0a0ab9;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 0.6rem 2rem;
+}
+#wrrapper .View-courses a {
+  padding: 0 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+#wrrapper .courses {
+  margin-top: 2rem;
+}
+#wrrapper .courses span {
+  font-size: 13px;
+  font-weight: unset;
+}
+#wrrapper .courses button {
+  color: gray;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#bcgrnd {
+  background-color: #eeeeee;
+}
+#bcgrnd #white {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: #0a0ab9;
+}
+#bcgrnd span {
+  color: rgb(99, 99, 99);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.owl-nav {
+  position: absolute;
+  font-size: 2rem;
+  right: 0;
+  top: -90px;
+  margin-top: 0 !important;
+}
+@media (max-width: 991px) {
+  .owl-nav {
+    top: -87.5px;
+  }
+}
+
+.item {
+  width: 100%;
+}
+.item .card {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+  background-color: gainsboro;
+  border: none;
+}
+.item .after {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: rgb(0, 179, 0);
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+.item .info {
+  width: 22rem;
+}
+.item .info h6 {
+  font-size: 1.25rem;
+}
+.item .info span {
+  font-size: 15px;
+}
+@media (max-width: 500px) {
+  .item h6 {
+    font-size: 1rem !important;
+  }
+  .item span {
+    font-size: 14px !important;
+  }
+}
+.item .btm {
+  width: 100%;
+}
+.item .btm span {
+  font-size: 12px;
+}
+
+.Corousel-3 .owl-nav {
+  position: absolute;
+  font-size: 2rem;
+  right: 0;
+  top: -107px;
+  margin-top: 0 !important;
+}
+@media (max-width: 991px) {
+  .Corousel-3 .owl-nav {
+    top: -103.5px;
+  }
+}
+.Corousel-3 .btns button {
+  color: gray;
+  font-size: 13px;
+  font-weight: 600;
+}
+.Corousel-3 .btns .btms {
+  color: white;
+  background-color: #0a0ab9;
+}
+
+.Corousel-4 .item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Corousel-4 .card {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-color: gainsboro;
+}
+
+.features .card {
+  overflow: hidden;
+  width: 100%;
+  height: 24rem;
+  background-color: gainsboro;
+  border: none;
+  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 10;
+}
+.features .features-section {
+  width: 100%;
+  height: 40rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: rgb(210, 255, 255);
+  border: none;
+  position: relative;
+}
+.features .features-section::before {
+  content: "";
+  position: absolute;
+  left: -10rem;
+  height: 40rem;
+  width: 10rem;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  background-color: rgb(210, 255, 255);
+}
+@media (max-width: 991px) {
+  .features .card {
+    width: 50%;
+    height: 10rem;
+    margin: auto;
+  }
+  .features .features-section {
+    width: 75%;
+    height: 20rem;
+    margin: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .features .features-section::before {
+    display: none;
+  }
+}
+
+.testimonial .container-fluid {
+  background-color: #eeeeee;
+}
+.testimonial .container-fluid .item {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.testimonial .container-fluid .item h3 {
+  width: 50rem;
+}
+.testimonial .container-fluid .item-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.testimonial .container-fluid .item-2 .card {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: gainsboro;
+}
+.testimonial .container-fluid #slider-2 .owl-nav {
+  position: relative !important;
+}
+.testimonial .container-fluid #slider-2 .owl-nav .owl-prev {
+  background-color: white !important;
+  color: black;
+  border-radius: 50%;
+  width: 3rem !important;
+  height: 3rem !important;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial .container-fluid #slider-2 .owl-nav .owl-next {
+  background-color: white !important;
+  border-radius: 50%;
+  width: 3rem !important;
+  height: 3rem !important;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial .container-fluid #slider-2 .owl-nav .owl-next:hover {
+  color: black !important;
+}
+@media (max-width: 991px) {
+  .testimonial h2,
+  .testimonial h3,
+  .testimonial h5 {
+    font-size: 1rem;
+  }
+  .testimonial h3 {
+    width: 15.75rem !important;
+  }
+}
+@media (max-width: 500px) {
+  .testimonial .owl-prev {
+    left: -2rem !important;
+  }
+  .testimonial .owl-next {
+    right: -2rem !important;
+  }
+}
+
+.contact .container-fluid {
+  background-color: rgb(0, 18, 0);
+}
+.contact .container-fluid h6,
+.contact .container-fluid h5,
+.contact .container-fluid h3 {
+  color: white;
+}
+@media (max-width: 991px) {
+  .contact .container-fluid h5,
+  .contact .container-fluid h3 {
+    font-size: 1rem;
+  }
+}
+
+.section-7 {
+  padding-top: 5rem;
+  position: relative;
+}
+.section-7 .middle {
+  color: black;
+}
+.section-7 .middle a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+.section-7 .middle p {
+  font-size: 15px;
+  color: gray;
+}
+.section-7 .middle ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+}
+.section-7 .middle ul li {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.section-7 .middle .subscribe {
+  width: 100%;
+  background-color: rgb(52, 52, 52);
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+.section-7 .middle .subscribe .btn {
+  background-color: rgb(255, 102, 0);
+}
+.section-7 .middle .subscribe .form-control {
+  background-color: rgb(52, 52, 52);
+  color: gainsboro;
+  font-size: 11px;
+  border: none;
+}
+.section-7 .middle .subscribe button {
+  font-size: 11px;
+}
+.section-7 .links h4 {
+  visibility: hidden;
+}
+.section-7 footer {
+  border-top: 1px solid gainsboro;
+}
+.section-7 footer a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+.section-7 footer a span {
+  padding: 1rem;
+}/*# sourceMappingURL=style.css.map */
